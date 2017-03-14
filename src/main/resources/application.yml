@@ -1,0 +1,13 @@
+# 端口，暂无作用
+server:
+      port: 9092
+      #context-path: #/advisor/
+# spring 配置
+spring:
+    datasource:
+        name: test
+        url: jdbc:mysql://127.0.0.1:3306/demo?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+        #mysql://120.25.251.106:3306/mycat_advisor
+        username: root
+        password: *******
+        driver-class-name: com.mysql.jdbc.Driver

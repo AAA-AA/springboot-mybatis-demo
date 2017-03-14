@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="cn.no7player.mapper.UserMapper">
- 
-  <select id="findUserInfo" resultType="com.cn.ren.model.User">
-    select name, age,password from user;
+<mapper namespace="com.cn.ren.persist.mapper.UserMapper">
+  <select id="findUserInfo" resultType="com.cn.ren.persist.model.User">
+    select * from user;
   </select>
 </mapper>
